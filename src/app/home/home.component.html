@@ -1,0 +1,10 @@
+<div class="main">
+    <label for="nameCity">Search by city name</label>
+    <input (input)="searchCities($event)" type=" text " placeholder="City... " />
+    <ul>
+
+        <li (click)="navToCity(fqcn)" class="city" *ngFor="let fqcn of fqcnList ">
+            {{ fqcn }}
+        </li>
+    </ul>
+</div>

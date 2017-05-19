@@ -1,0 +1,868 @@
+webpackJsonp([1,4],{
+
+/***/ 126:
+/***/ (function(module, exports) {
+
+function webpackEmptyContext(req) {
+	throw new Error("Cannot find module '" + req + "'.");
+}
+webpackEmptyContext.keys = function() { return []; };
+webpackEmptyContext.resolve = webpackEmptyContext;
+module.exports = webpackEmptyContext;
+webpackEmptyContext.id = 126;
+
+
+/***/ }),
+
+/***/ 127:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app_module__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(142);
+
+
+
+
+if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["a" /* enableProdMode */])();
+}
+__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 134:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var AppComponent = (function () {
+    function AppComponent() {
+        this.title = 'app works!';
+    }
+    return AppComponent;
+}());
+AppComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+        selector: 'app-root',
+        template: __webpack_require__(215),
+        styles: [__webpack_require__(200)]
+    })
+], AppComponent);
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 135:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_http__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_component__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__sidebar_sidebar_component__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__header_header_component__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_routing__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__home_home_component__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__city_city_component__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__weather_weather_component__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__services_cities_resolver_service__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__services_cities_service__ = __webpack_require__(139);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = (function () {
+    function AppModule() {
+    }
+    return AppModule;
+}());
+AppModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* NgModule */])({
+        imports: [
+            __WEBPACK_IMPORTED_MODULE_7__app_routing__["a" /* AppRoutingModule */],
+            __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_http__["a" /* HttpModule */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_http__["b" /* JsonpModule */],
+        ],
+        declarations: [
+            __WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */],
+            __WEBPACK_IMPORTED_MODULE_5__sidebar_sidebar_component__["a" /* SidebarComponent */],
+            __WEBPACK_IMPORTED_MODULE_6__header_header_component__["a" /* HeaderComponent */],
+            __WEBPACK_IMPORTED_MODULE_8__home_home_component__["a" /* HomeComponent */],
+            __WEBPACK_IMPORTED_MODULE_9__city_city_component__["a" /* CityComponent */],
+            __WEBPACK_IMPORTED_MODULE_10__weather_weather_component__["a" /* WeatherComponent */]
+        ],
+        providers: [
+            __WEBPACK_IMPORTED_MODULE_11__services_cities_resolver_service__["a" /* CitiesResolverService */],
+            __WEBPACK_IMPORTED_MODULE_12__services_cities_service__["a" /* CitiesService */]
+        ],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_4__app_component__["a" /* AppComponent */]]
+    })
+], AppModule);
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 136:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home_component__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__city_city_component__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_cities_resolver_service__ = __webpack_require__(138);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+var routes = [
+    {
+        path: "home",
+        component: __WEBPACK_IMPORTED_MODULE_2__home_home_component__["a" /* HomeComponent */],
+    },
+    {
+        path: "city/:fqcn",
+        component: __WEBPACK_IMPORTED_MODULE_3__city_city_component__["a" /* CityComponent */],
+        resolve: {
+            city: __WEBPACK_IMPORTED_MODULE_4__services_cities_resolver_service__["a" /* CitiesResolverService */]
+        }
+    },
+    {
+        path: "**",
+        redirectTo: "/home"
+    }
+];
+var AppRoutingModule = (function () {
+    function AppRoutingModule() {
+    }
+    return AppRoutingModule;
+}());
+AppRoutingModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["b" /* NgModule */])({
+        imports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* RouterModule */].forRoot(routes)],
+        exports: [__WEBPACK_IMPORTED_MODULE_1__angular_router__["c" /* RouterModule */]]
+    })
+], AppRoutingModule);
+
+//# sourceMappingURL=app.routing.js.map
+
+/***/ }),
+
+/***/ 137:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeaderComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var HeaderComponent = (function () {
+    function HeaderComponent() {
+    }
+    HeaderComponent.prototype.ngOnInit = function () {
+    };
+    return HeaderComponent;
+}());
+HeaderComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+        selector: 'app-header',
+        template: __webpack_require__(217),
+        styles: [__webpack_require__(202)]
+    }),
+    __metadata("design:paramtypes", [])
+], HeaderComponent);
+
+//# sourceMappingURL=header.component.js.map
+
+/***/ }),
+
+/***/ 138:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__cities_service__ = __webpack_require__(139);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CitiesResolverService; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var CitiesResolverService = (function () {
+    function CitiesResolverService(_citiesService) {
+        this._citiesService = _citiesService;
+    }
+    CitiesResolverService.prototype.resolve = function (route) {
+        return this._citiesService.cityDetailsSearch(route.params["fqcn"]);
+    };
+    return CitiesResolverService;
+}());
+CitiesResolverService = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* Injectable */])(),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__cities_service__["a" /* CitiesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__cities_service__["a" /* CitiesService */]) === "function" && _a || Object])
+], CitiesResolverService);
+
+var _a;
+//# sourceMappingURL=cities-resolver.service.js.map
+
+/***/ }),
+
+/***/ 139:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_debounceTime__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_debounceTime___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_add_operator_debounceTime__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_distinctUntilChanged__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_distinctUntilChanged___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_distinctUntilChanged__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_switchMap__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_switchMap__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_concatmap__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_concatmap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_concatmap__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__models_city__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__models_weather__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_router__ = __webpack_require__(48);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CitiesService; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+var CitiesService = (function () {
+    //@Output()  filterByCategory: EventEmitter<Category> = new EventEmitter();
+    function CitiesService(_http, _router) {
+        this._http = _http;
+        this._router = _router;
+        this.favCity = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* EventEmitter */]();
+        this.miStorage = localStorage;
+    }
+    //Devuelve un observable de tipo ciudad al componente city
+    CitiesService.prototype.cityDetailsSearch = function (fqcn) {
+        var _this = this;
+        var params = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* URLSearchParams */]();
+        params.set('fqcn', fqcn);
+        var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]();
+        options.search = params;
+        return this._http.get('http://gd.geobytes.com/GetCityDetails', options)
+            .map(function (res) {
+            return __WEBPACK_IMPORTED_MODULE_7__models_city__["a" /* City */].fromJson(res.json());
+            //Concatmap concatena las llamadas map de obsrvables y te asegura que se ejecutan en orden
+            //Además nos llega por parámetro lo que ha devuelto el map del anterior observable
+        }).concatMap(function (city) {
+            //Al realizarse esta llamada nos aseguramos que la ciudad ya tiene el tiempo incluido
+            return _this.weatherSearch(city);
+        });
+    };
+    CitiesService.prototype.weatherSearch = function (city) {
+        var params = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* URLSearchParams */]();
+        //params.set('id', city.id.toString());
+        params.set('lat', city.latitude.toString());
+        params.set('lon', city.longitude.toString());
+        //Id para que no rechace la conexión.
+        params.set('appid', 'fdd6a867780382130d26cd4b7b788e8e');
+        var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]();
+        options.search = params;
+        return this._http.get('http://api.openweathermap.org/data/2.5/weather?units=metric', options)
+            .map(function (res) {
+            city.weather = __WEBPACK_IMPORTED_MODULE_8__models_weather__["a" /* Weather */].fromJson(res.json());
+            return city;
+        });
+    };
+    //Buscar la api de ciudades
+    CitiesService.prototype.searchPetition = function (palabra) {
+        var params = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* URLSearchParams */]();
+        //Estos parametros.set están incluyendo parámetros en la url
+        //http://algo/?search=palabra&action=opensearch...
+        params.set('q', palabra);
+        var options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]();
+        options.search = params;
+        return this._http
+            .get("http://gd.geobytes.com/AutoCompleteCity", options)
+            .map(function (res) {
+            //debugger;
+            //console.log(res.json()[0]);
+            //Si la búsqueda es insuficiente devuelve %s
+            if (res.json()[0] === "%s")
+                return null;
+            //console.log(res.json());
+            return res.json();
+        });
+    };
+    //Recibe el fqcn
+    CitiesService.prototype.addFavCity = function (city) {
+        //this.favCities.push(city);
+        //Almaceno una clave con la nueva ciudad
+        //const key = 'favCities' + this.miStorage.length;
+        //Creo una clave aleatoria para asegurarme que nunca coinciden dos claves
+        //SI utilizas this.miStorage.length puede que coincidan al eliminar claves
+        console.log(city);
+        this.miStorage.setItem(city, city);
+        this.favCity.emit(city);
+    };
+    CitiesService.prototype.getEmitter = function () {
+        return this.favCity;
+    };
+    CitiesService.prototype.getFavCities = function () {
+        var favCities = [];
+        for (var i = 0; i < this.miStorage.length; i++) {
+            favCities.push(this.miStorage.getItem(this.miStorage.key(i)));
+        }
+        return favCities;
+    };
+    return CitiesService;
+}());
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Output */])(),
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* EventEmitter */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* EventEmitter */]) === "function" && _a || Object)
+], CitiesService.prototype, "favCity", void 0);
+CitiesService = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* Injectable */])(),
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["e" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["e" /* Http */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_9__angular_router__["a" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_9__angular_router__["a" /* Router */]) === "function" && _c || Object])
+], CitiesService);
+
+var _a, _b, _c;
+//# sourceMappingURL=cities.service.js.map
+
+/***/ }),
+
+/***/ 140:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_cities_service__ = __webpack_require__(139);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_router__ = __webpack_require__(48);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SidebarComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var SidebarComponent = (function () {
+    function SidebarComponent(_citiesService, _router) {
+        this._citiesService = _citiesService;
+        this._router = _router;
+        this.cities = [];
+    }
+    SidebarComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.cities = this._citiesService.getFavCities();
+        this._citiesService.getEmitter().subscribe(function () { return _this._citiesService.getFavCities(); });
+    };
+    SidebarComponent.prototype.showCity = function (city) {
+        this._router.navigateByUrl("city/" + city);
+    };
+    return SidebarComponent;
+}());
+SidebarComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+        selector: 'app-sidebar',
+        template: __webpack_require__(219),
+        styles: [__webpack_require__(204)]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__services_cities_service__["a" /* CitiesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__services_cities_service__["a" /* CitiesService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["a" /* Router */]) === "function" && _b || Object])
+], SidebarComponent);
+
+var _a, _b;
+//# sourceMappingURL=sidebar.component.js.map
+
+/***/ }),
+
+/***/ 141:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__models_weather__ = __webpack_require__(82);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WeatherComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var WeatherComponent = (function () {
+    function WeatherComponent() {
+    }
+    WeatherComponent.prototype.ngOnInit = function () {
+    };
+    return WeatherComponent;
+}());
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* Input */])(),
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__models_weather__["a" /* Weather */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__models_weather__["a" /* Weather */]) === "function" && _a || Object)
+], WeatherComponent.prototype, "weather", void 0);
+WeatherComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+        selector: 'app-weather',
+        template: __webpack_require__(220),
+        styles: [__webpack_require__(205)]
+    }),
+    __metadata("design:paramtypes", [])
+], WeatherComponent);
+
+var _a;
+//# sourceMappingURL=weather.component.js.map
+
+/***/ }),
+
+/***/ 142:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
+// The file contents for the current environment will overwrite these during build.
+// The build system defaults to the dev environment which uses `environment.ts`, but if you do
+// `ng build --env=prod` then `environment.prod.ts` will be used instead.
+// The list of which env maps to which file can be found in `.angular-cli.json`.
+// The file contents for the current environment will overwrite these during build.
+var environment = {
+    production: false
+};
+//# sourceMappingURL=environment.js.map
+
+/***/ }),
+
+/***/ 200:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(19)(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 201:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(19)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".main {\r\n    position: absolute;\r\n    left: 220px;\r\n    top: 100px;\r\n    right: 0;\r\n    bottom: 0;\r\n}\r\n\r\n.red {\r\n    font-size: 36px;\r\n    color: red;\r\n}\r\n\r\n#heart {\r\n    width: 100px;\r\n    height: 100px;\r\n}\r\n\r\n#heart:hover {\r\n    background-color: grey;\r\n    cursor: pointer;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 202:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(19)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".top {\r\n    position: absolute;\r\n    left: 0;\r\n    right: 0;\r\n    height: 60px;\r\n    background-color: red;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 203:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(19)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".main {\r\n    position: absolute;\r\n    left: 220px;\r\n    top: 100px;\r\n    right: 0;\r\n    bottom: 0;\r\n}\r\n\r\n.city:hover {\r\n    background-color: gray;\r\n    cursor: pointer;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 204:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(19)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".left {\r\n    position: absolute;\r\n    left: 0;\r\n    top: 92px;\r\n    bottom: 0;\r\n    width: 200px;\r\n    background-color: green;\r\n}\r\n\r\n.city:hover {\r\n    background-color: gray;\r\n    cursor: pointer;\r\n}", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 205:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(19)(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ 215:
+/***/ (function(module, exports) {
+
+module.exports = "<header>\n    <app-header></app-header>\n</header>\n<div>\n    <app-sidebar></app-sidebar>\n    <router-outlet></router-outlet>\n</div>"
+
+/***/ }),
+
+/***/ 216:
+/***/ (function(module, exports) {
+
+module.exports = "<ul class=\"main\">\n    <img (click)=\"notifyFav()\" id=\"heart\" src=\"assets/Images/heart.png\" alt=\"fav\">\n    <li>Id:{{city?.id}}</li>\n    <li>Name: {{city?.name}}</li>\n    <li>Code: {{city?.code}}</li>\n    <li>Region: {{city?.region}}</li>\n    <li>Population: {{city?.population}}</li>\n    <li>Currency: {{city?.currency}}</li>\n    <li>Longitude: {{city?.longitude}}</li>\n    <li>Latitude: {{city?.latitude}}</li>\n    <app-weather *ngIf=\" city.weather\" [weather]=\"city.weather \"></app-weather>\n</ul>"
+
+/***/ }),
+
+/***/ 217:
+/***/ (function(module, exports) {
+
+module.exports = "<p class=\"top\">\n    header works!\n</p>"
+
+/***/ }),
+
+/***/ 218:
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"main\">\n    <label for=\"nameCity\">Search by city name</label>\n    <input (input)=\"searchCities($event)\" type=\" text \" placeholder=\"City... \" />\n    <ul>\n\n        <li (click)=\"navToCity(fqcn)\" class=\"city\" *ngFor=\"let fqcn of fqcnList \">\n            {{ fqcn }}\n        </li>\n    </ul>\n</div>"
+
+/***/ }),
+
+/***/ 219:
+/***/ (function(module, exports) {
+
+module.exports = "<section class=\"left\">\n    <ul>\n        <li class=\"city\"><a href=\"/home\">HOME</a></li>\n        <li class=\"city\" *ngFor=\"let city of cities\" (click)=\"showCity(city)\">\n            <span>\n            <strong>{{city}}</strong>\n        </span>\n        </li>\n    </ul>\n</section>"
+
+/***/ }),
+
+/***/ 220:
+/***/ (function(module, exports) {
+
+module.exports = "<ul>\n    <li>Humidity: {{weather.humidity}}</li>\n    <li>Pressure: {{weather.pressure}}</li>\n    <li>Temp: {{weather.temp}}</li>\n    <li>Max Temp: {{weather.temp_max}}</li>\n    <li>Min Tiemp: {{weather.temp_min}}</li>\n    <li>Description: {{weather.description}}</li>\n    <!--\"http://openweathermap.org/img/w\"-->\n    <li><img [src]=\"weather.icon\"></li>\n\n</ul>"
+
+/***/ }),
+
+/***/ 294:
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(130);
+module.exports = __webpack_require__(127);
+
+
+/***/ }),
+
+/***/ 79:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_cities_service__ = __webpack_require__(139);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CityComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var CityComponent = (function () {
+    function CityComponent(_activatedRoute, _citiesService) {
+        this._activatedRoute = _activatedRoute;
+        this._citiesService = _citiesService;
+        this.favCity = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* EventEmitter */]();
+    }
+    //AL principio de todo se cogerá de 
+    CityComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        //debugger;
+        this._activatedRoute.data.forEach(function (data) { _this.city = data.city; });
+    };
+    // Método que se llama cuando una persona selecciona una ciudad como favorita
+    //Cuando me pulsen en una ciudad se lo comunico a mi padre(home), y este se lo dice a sideBar que tiene una lista de ciudades.
+    CityComponent.prototype.notifyFav = function () {
+        this._citiesService.addFavCity(this.city.fqcn);
+        //this.favCity.emit(this.city);
+        //localStorage.setItem('miGato', 'Juan');
+    };
+    return CityComponent;
+}());
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Output */])(),
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* EventEmitter */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* EventEmitter */]) === "function" && _a || Object)
+], CityComponent.prototype, "favCity", void 0);
+CityComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+        selector: 'app-city',
+        template: __webpack_require__(216),
+        styles: [__webpack_require__(201)]
+    }),
+    __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* ActivatedRoute */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__services_cities_service__["a" /* CitiesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_cities_service__["a" /* CitiesService */]) === "function" && _c || Object])
+], CityComponent);
+
+var _a, _b, _c;
+//# sourceMappingURL=city.component.js.map
+
+/***/ }),
+
+/***/ 80:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_router__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_debounceTime__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_debounceTime___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_debounceTime__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_distinctUntilChanged__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_distinctUntilChanged___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_distinctUntilChanged__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_switchMap__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_switchMap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_switchMap__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__services_cities_service__ = __webpack_require__(139);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomeComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+var HomeComponent = (function () {
+    function HomeComponent(_http, _router, _citiesService) {
+        var _this = this;
+        this._http = _http;
+        this._router = _router;
+        this._citiesService = _citiesService;
+        this._searchBoxFlow = new __WEBPACK_IMPORTED_MODULE_2_rxjs_Subject__["Subject"]();
+        this.fqcnList = [];
+        this._searchBoxFlow
+            .debounceTime(500)
+            .distinctUntilChanged()
+            .switchMap(function (cityName) { return _this._citiesService.searchPetition(cityName); })
+            .subscribe(function (results) {
+            if (results !== null && results.length > 0)
+                _this.fqcnList = results;
+        });
+    }
+    HomeComponent.prototype.searchCities = function (evento) {
+        // hacemos emisión de eventos
+        // Para indicar el tipo de target en medio de una instrucción
+        var cityName = evento.target.value;
+        this._searchBoxFlow.next(cityName);
+    };
+    HomeComponent.prototype.navToCity = function (fqcn) {
+        this._router.navigateByUrl("city/" + fqcn);
+    };
+    HomeComponent.prototype.ngOnDestroy = function () {
+        // Nos desuscribimos del observable
+        this._searchBoxFlow.unsubscribe();
+    };
+    return HomeComponent;
+}());
+HomeComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_10" /* Component */])({
+        selector: 'app-home',
+        template: __webpack_require__(218),
+        styles: [__webpack_require__(203)]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["e" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["e" /* Http */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_router__["a" /* Router */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_8__services_cities_service__["a" /* CitiesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_8__services_cities_service__["a" /* CitiesService */]) === "function" && _c || Object])
+], HomeComponent);
+
+var _a, _b, _c;
+//# sourceMappingURL=home.component.js.map
+
+/***/ }),
+
+/***/ 81:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return City; });
+var City = (function () {
+    function City(id, fqcn, name, code, region, population, currency, longitude, latitude, weather) {
+        this.id = id;
+        this.fqcn = fqcn;
+        this.name = name;
+        this.code = code;
+        this.region = region;
+        this.population = population;
+        this.currency = currency;
+        this.longitude = longitude;
+        this.latitude = latitude;
+        this.weather = weather;
+    }
+    City.fromJson = function (json) {
+        return new City(json.geobytescityid, json.geobytesfqcn, json.geobytescity, json.geobyteslocationcode, json.geobytesregion, json.geobytespopulation, json.geobytescurrency, json.geobyteslongitude, json.geobyteslatitude, null);
+    };
+    return City;
+}());
+
+//# sourceMappingURL=city.js.map
+
+/***/ }),
+
+/***/ 82:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Weather; });
+var Weather = (function () {
+    function Weather(humidity, pressure, temp, temp_max, temp_min, description, icon) {
+        this.humidity = humidity;
+        this.pressure = pressure;
+        this.temp = temp;
+        this.temp_max = temp_max;
+        this.temp_min = temp_min;
+        this.description = description;
+        this.icon = icon;
+    }
+    Weather.fromJson = function (json) {
+        return new Weather(json.main.humidity, json.main.pressure, json.main.temp, json.main.temp_max, json.main.temp_min, json.weather[0].description, "http://openweathermap.org/img/w/" + json.weather[0].icon + ".png");
+    };
+    return Weather;
+}());
+
+//# sourceMappingURL=weather.js.map
+
+/***/ })
+
+},[294]);
+//# sourceMappingURL=main.bundle.js.map

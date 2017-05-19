@@ -1,0 +1,14 @@
+<ul class="main">
+    <img (click)="notifyFav()" id="heart" [src]=path alt="favImage">
+    <li>Id:{{city?.id}}</li>
+    <li>Name: {{city?.name}}</li>
+    <li>Code: {{city?.code}}</li>
+    <li>Region: {{city?.region}}</li>
+    <li>Population: {{city?.population}}</li>
+    <li>Currency: {{city?.currency}}</li>
+    <li>Longitude: {{city?.longitude}}</li>
+    <li>Latitude: {{city?.latitude}}</li>
+    <app-weather *ngIf="city.weather" [weather]="city.weather "></app-weather>
+
+</ul>
+<ngui-map class="map" zoom="13" [center]="city.coordinates"></ngui-map>

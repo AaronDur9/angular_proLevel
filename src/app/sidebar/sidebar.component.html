@@ -1,0 +1,10 @@
+<section class="left">
+    <ul>
+        <li (click)="navToHome()" class="city">HOME</li>
+        <li class="city" *ngFor="let city of cities" (click)="showCity(city)">
+            <span>
+            <strong>{{city}}</strong>
+        </span>
+        </li>
+    </ul>
+</section>

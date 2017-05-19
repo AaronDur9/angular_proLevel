@@ -1,0 +1,12 @@
+.main {
+    position: absolute;
+    left: 220px;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+}
+
+.city:hover {
+    background-color: gray;
+    cursor: pointer;
+}
